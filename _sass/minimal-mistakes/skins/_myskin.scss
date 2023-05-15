@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Myskin skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #ffffff !default;
+$text-color: #202020 !default;
+$primary-color: #3b963b !default;
+$border-color: mix(#202020, $background-color, 20%) !default;
+$code-background-color: #b8b8b8 !default;
+$code-background-color-dark: #a7a7a7 !default;
+$form-background-color: mix(rgb(255, 255, 255), $background-color, 15%) !default;
+$footer-background-color: mix(rgb(155, 155, 155), $background-color, 20%) !default;
+$link-color: mix(#00b58e, $text-color, 40%) !default;
+$link-color-hover: mix(rgb(44,44,44), $link-color, 25%) !default;
+$link-color-visited: mix(#00b58e, $text-color, 40%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}

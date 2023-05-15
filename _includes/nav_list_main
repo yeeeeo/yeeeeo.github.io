@@ -1,0 +1,116 @@
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+        <span class="nav__sub-title">Study</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "IT" %}
+                        <li><a href="/categories/it" class="">IT 지식({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/sql" class="">DB & SQL({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Stat-basic" %}
+                        <li><a href="/categories/stat-basic" class="">통계학입문({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Git" %}
+                        <li><a href="/categories/git" class="">Git & Github({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+      <li>
+        <span class="nav__sub-title">Certificate</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Cumhwal" %}
+                        <li><a href="/categories/cumhwal" class="">컴퓨터활용능력 1급({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ADP" %}
+                        <li><a href="/categories/adp" class="">ADP 데이터분석전문가({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQLd" %}
+                        <li><a href="/categories/sqld" class="">SQLd SQL개발자({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+      <li>
+        <span class="nav__sub-title">Career</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Poll-analysis" %}
+                        <li><a href="/categories/poll-analysis" class="">선거관리위원회 여론조사분석({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>    
+      </li>
+      <li>
+        <span class="nav__sub-title">Data Exp</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Data-campus" %}
+                        <li><a href="/categories/data-campus" class="">데이터 청년 캠퍼스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Project" %}
+                        <li><a href="/categories/project" class="">데이터분석 프로젝트 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+      <li>
+        <span class="nav__sub-title">Bloging</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Blog" %}
+                        <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Life" %}
+                        <li><a href="/categories/life" class="">It is a secret({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+      
+      <li>	
+            <br>      
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fheoni00.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
+      </li>
+  </ul>
+</nav>
+
