@@ -1,7 +1,7 @@
 ---
-title: "Don't be a fool, 차곡차곡 알아가는 IT지식!"
+title: "Spring Security 인증 개발"
 layout: archive
-permalink: categories/it
+permalink: categories/security
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.IT %}
+{% assign posts = site.categories.Security %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

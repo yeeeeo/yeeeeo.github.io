@@ -11,8 +11,8 @@
         <span class="nav__sub-title">Study</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "IT" %}
-                        <li><a href="/categories/it" class="">IT 지식({{category[1].size}})</a></li>
+                    {% if category[0] == "Security" %}
+                        <li><a href="/categories/security" class="">Spring Security({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
