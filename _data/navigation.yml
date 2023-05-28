@@ -4,8 +4,8 @@ main:
     url: /index.html
   - title: "Category"
     url: /categories/
-  - title: "About"
-    url: /about/
+#  - title: "About"
+#    url: /about/
     
   #- title: "Tag"
     #url: /tags/

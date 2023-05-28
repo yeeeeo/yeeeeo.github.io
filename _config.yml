@@ -12,20 +12,20 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "myskin" # "default"  "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default"  "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR" # 블로그 사용 언어
-title                    : "Yeeeo" # 블로그 타이틀
+title                    : "공블 : 공부 블로그" # 블로그 타이틀
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Yeee💛"
+name                     : "여현정"
 description              : "개발 공부 블로그"
 url                      : "https://yeeeeo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Yeeeeo/comments" #댓글 경로 / github name/repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # 타이틀 옆 로고
+logo                     : # 타이틀 옆 로고
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 future                   : true
 breadcrumbs              : true # true, false (default)
@@ -43,7 +43,7 @@ comments: # 블로그 댓글 활용
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-light" # "github-light" (default), "github-dark"
+    theme                : "photon-dark" # "github-light" (default), "github-dark"
     issue_term           : "pathname" # "pathname" (default)
   staticman:
     branch               : # "master"

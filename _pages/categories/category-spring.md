@@ -1,7 +1,7 @@
 ---
-title: "Spring Security 인증 개발"
+title: "Spring"
 layout: archive
-permalink: categories/security
+permalink: categories/spring
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Security %}
+{% assign posts = site.categories.Spring %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

@@ -12,7 +12,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Security" %}
-                        <li><a href="/categories/security" class="">Spring Security({{category[1].size}})</a></li>
+                        <li><a href="/categories/spring" class="">Spring({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
