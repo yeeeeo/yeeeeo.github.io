@@ -106,7 +106,7 @@ analytics: # 블로그 접근 경로 확인 코드
 author:
   name             : "여현정"
   avatar           : "/assets/images/profile22.10.jpg"
-  bio              : "나는야 Rookie backend developer!"
+  bio              : "나는야 Rookie Backend Developer!"
 #  location         : "Gwangju"
 
   links:
