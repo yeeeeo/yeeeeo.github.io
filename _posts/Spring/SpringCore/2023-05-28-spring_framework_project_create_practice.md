@@ -14,7 +14,7 @@ last_modified_at: 2023-05-28
 ---
 ## Maven 프로젝트 생성
 - IntelliJ에서 New Project -> Build system: Maven으로 지정
-![spring_framework_project_create_1](/assets/images/file/practice_spring_framework_project_create_1.png)
+![spring_framework_project_create_1](/assets/images/file/practice_spring_framework_project_create.png)
 
 ## spring-framework-bom 사용
 - pom.xml 파일에 dependencyManagement 추가
