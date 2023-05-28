@@ -107,7 +107,7 @@ author:
   name             : "여현정"
   avatar           : "/assets/images/profile22.10.jpg"
   bio              : "나는야 Rookie backend developer!"
-  location         : "Gwangju"
+#  location         : "Gwangju"
 
   links:
     - label: "Email"
