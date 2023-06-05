@@ -11,8 +11,8 @@
         <span class="nav__sub-title">Spring</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Core" %}
-                        <li><a href="/categories/core" class="">Spring Core({{category[1].size}})</a></li>
+                    {% if category[0] == "Msa" %}
+                        <li><a href="/categories/msa" class="">MSA({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

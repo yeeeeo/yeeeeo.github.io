@@ -1,7 +1,7 @@
 ---
-title: "Spring Core"
+title: "Micro Service Architecture"
 layout: archive
-permalink: categories/core
+permalink: categories/msa
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Core %}
+{% assign posts = site.categories.Msa %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
