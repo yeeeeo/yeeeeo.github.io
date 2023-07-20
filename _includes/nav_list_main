@@ -25,11 +25,11 @@
       </li>
 
       <li>
-              <span class="nav__sub-title">Vue</span>
+              <span class="nav__sub-title">Vue.js 3</span>
                   <ul>
                       {% for category in site.categories %}
-                          {% if category[0] == "Vue3" %}
-                              <li><a href="/categories/vue3" class="">Vue3({{category[1].size}})</a></li>
+                          {% if category[0] == "Vuejs3" %}
+                              <li><a href="/categories/vuejs3" class="">Vue.js 3({{category[1].size}})</a></li>
                           {% endif %}
                       {% endfor %}
                   </ul>
