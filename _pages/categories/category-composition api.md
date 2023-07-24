@@ -1,7 +1,7 @@
 ---
-title: "Vue.js 3"
+title: "Composition Api"
 layout: archive
-permalink: categories/vuejs3
+permalink: categories/composition api
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Vuejs3'] %}
+{% assign posts = site.categories['Composition Api'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

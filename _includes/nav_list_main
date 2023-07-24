@@ -28,8 +28,8 @@
               <span class="nav__sub-title">Vue.js 3</span>
                   <ul>
                       {% for category in site.categories %}
-                          {% if category[0] == "Vuejs3" %}
-                              <li><a href="/categories/vuejs3" class="">Vue.js 3({{category[1].size}})</a></li>
+                          {% if category[0] == "Composition Api" %}
+                              <li><a href="/categories/composition api" class="">Composition Api({{category[1].size}})</a></li>
                           {% endif %}
                       {% endfor %}
                   </ul>
