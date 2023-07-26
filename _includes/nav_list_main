@@ -44,7 +44,18 @@
                                 {% endif %}
                             {% endfor %}
                         </ul>
-            </li>
+      </li>
+
+      <li>
+                          <span class="nav__sub-title">ERP</span>
+                              <ul>
+                                  {% for category in site.categories %}
+                                      {% if category[0] == "Troia" %}
+                                          <li><a href="/categories/troia" class="">TROIA({{category[1].size}})</a></li>
+                                      {% endif %}
+                                  {% endfor %}
+                              </ul>
+      </li>
   </ul>
 </nav>
 
