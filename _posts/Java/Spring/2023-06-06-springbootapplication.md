@@ -3,7 +3,7 @@ title:  "[Spring Boot] @SpringBootApplication"
 excerpt: "@SpringBootApplication"
 
 categories:
-- Spring Boot
+- Spring
 
 toc: true
 toc_sticky: true

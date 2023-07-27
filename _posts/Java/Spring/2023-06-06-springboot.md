@@ -3,7 +3,7 @@ title:  "[Spring Boot] 스프링 부트 프레임워크"
 excerpt: "스프링 부트 프레임워크"
 
 categories:
-- Spring Boot
+- Spring
 
 toc: true
 toc_sticky: true

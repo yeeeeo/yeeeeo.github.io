@@ -1,7 +1,7 @@
 ---
-title: "Micro Service Architecture"
+title: "Spring Framework"
 layout: archive
-permalink: categories/msa
+permalink: categories/spring
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Msa %}
+{% assign posts = site.categories.Spring %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
