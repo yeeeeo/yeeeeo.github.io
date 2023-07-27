@@ -25,11 +25,11 @@
       </li>
 
       <li>
-              <span class="nav__sub-title">Vue.js 3</span>
+              <span class="nav__sub-title">Java Script</span>
                   <ul>
                       {% for category in site.categories %}
-                          {% if category[0] == "Composition Api" %}
-                              <li><a href="/categories/composition api" class="">Composition API({{category[1].size}})</a></li>
+                          {% if category[0] == "Java Script" %}
+                              <li><a href="/categories/java script" class="">Java Script({{category[1].size}})</a></li>
                           {% endif %}
                       {% endfor %}
                   </ul>

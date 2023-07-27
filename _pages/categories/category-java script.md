@@ -1,7 +1,7 @@
 ---
-title: "Composition Api"
+title: "Java Script"
 layout: archive
-permalink: categories/composition api
+permalink: categories/java script
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Composition Api'] %}
+{% assign posts = site.categories['Java Script'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
