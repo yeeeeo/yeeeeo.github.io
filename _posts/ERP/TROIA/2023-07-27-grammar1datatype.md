@@ -31,7 +31,7 @@ last_modified_at: 2023-07-27
 - STRINGBUILDER
 STRINGBUILDER는 문자열 작성 작업 전용으로 설계된 기호 유형과 같은 문자열이다.  
 STRING 대신 STRINGBUILDER 변수를 사용하면 문자열 연결 성능이 크게 향상된다.  
-<u>문자열 연결에서 더 높은 성능을 얻으려면 '+' 연산자 대신 APPENDSTRING 명령을 사용해야한다.</u>
+<u>문자열 연결에서 더 높은 성능을 얻으려면 '+' 연산자 대신 APPENDSTRING 명령을 사용해야한다.</u>  
 STRINGBUILDER와 STRING 사이에 다른 특징은 없지만 문자열 연결을 제외하고  
 일반 문자열 작업에서 STRING 대신 STRINGBUILDER 유형을 사용하지 않는 것이 좋다.  
 
