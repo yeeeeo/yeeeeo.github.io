@@ -18,6 +18,7 @@ last_modified_at: 2023-07-28
 > TROIA 에서 이러한 메시지를 표시하려면 `MESSAGE` 명령을 사용한다.
 
 - MESSAGE 구문
+
 ```java
 MESSAGE {module} {messagetype}{messageid} WITH {inputparamsformessagetext};
 
