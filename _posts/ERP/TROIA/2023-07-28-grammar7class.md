@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-07-28
-last_modified_at: 2023-07-28
+last_modified_at: 2023-07-31
 
 ---
 ## Class
@@ -71,3 +71,15 @@ RETURN 'Maxinum number is ' + MAXNUM;
 
 ### 클래스 멤버 접근
 대부분의 프로그래밍 언어에서는 클래스 인스턴스 필드에 액세스할 때 도트(.) 연산자를 사용하지만  
+TROIA 에서는 `@` 연산자를 필드 값에 액세스한다.
+
+```java
+OBJECT:
+    STRINGUTIL STRUTIL;
+
+STRUTIL@DEFAULTSEPERATOR = '-';
+```
+
+### 클래스 상속
+TROIA 클래스를 상속하고 기본 클래스의 메소드를 재정의할 수 있다. (Dialog 에서도 가능)  
+메소드와 기본 메소드를 단일 생성자처럼 재정의하는 경우 클래스 이니셜라이저 메소드는 재정의할 수 없다.
