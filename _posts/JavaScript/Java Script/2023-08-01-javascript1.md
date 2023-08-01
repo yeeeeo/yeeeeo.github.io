@@ -15,8 +15,9 @@ last_modified_at: 2023-08-01
 ## 변수 생성
 1. var  
 var은 let보다 엄격하지 않다.  
-var은 똑같은 변수로 선언이 가능하다.
+var은 똑같은 변수로 선언이 가능하다.  
 var로 변수를 생성하면 scope를 벗어나도 변경된 값이 유지된다.
+
 ```javascript
 // 똑같은 변수 선언 가능
 var a;
@@ -34,7 +35,7 @@ if (1) {
 console.log(foo);       // bar2
 ```
 
-2. let
+2. let  
 let은 이미 선언한 변수를 선언한 변수를 선언한다면 에러가 발생한다.  
 let으로 변수를 생성하면 scope를 벗어나면 변경된 값이 유지가 안된다.
 
@@ -55,8 +56,9 @@ if (1) {
 console.log(foo);       // bar1
 ```
 
-3. const
-const로 변수를 선언하면 값을 바꿀 수 없다.
+3. const  
+const로 변수를 선언하면 값을 바꿀 수 없다.  
+
 ```javascript
 // 변수 선언
 const a = '';
@@ -139,7 +141,7 @@ let foo = [1, 2, 3, 4, 5];
 ## 데이터 형 변환
 JavaScript에서는 숫자 <-> 문자열, 문자열 <-> json으로 바꿀 수 있다.  
 
-1. parseInt
+1. parseInt  
 parseInt는 INT형 타입으로 변환한다.
 
 ```javascript
@@ -149,7 +151,7 @@ console.log(parseInt(1));        // 1
 console.log(parseInt(1.1));      // 1
 ```
 
-2. parseFloat
+2. parseFloat  
 parseFloat는 실수 타입으로 변환한다.
 
 ```javascript
@@ -159,7 +161,7 @@ console.log(parseFloat(1));        // 1
 console.log(parseFloat(1.1));      // 1.1
 ```
 
-4. toString
+4. toString  
 toString은 문자열로 변환한다.
 
 ```javascript
@@ -170,7 +172,7 @@ console.log(foo1.toString());      // "1"
 console.log(foo2.toString());      // "1"
 ```
 
-4. JSON.stringify
+4. JSON.stringify  
 JSON.stringify는 json, array를 문자열로 변경할때 사용한다.
 
 ```javascript
@@ -181,7 +183,7 @@ console.log(JSON.stringify(foo1));   // "{"a":1,"b":2}"
 console.log(JSON.stringify(foo2));   // "[1,2,3,4]"
 ```
 
-5. JSON.parse
+5. JSON.parse  
 JSON.parse는 JSON.stringify 처리되어 문자열로 된 json과 array를 다시 json과 array로 되돌릴 때 사용한다.
 
 ```javascript
