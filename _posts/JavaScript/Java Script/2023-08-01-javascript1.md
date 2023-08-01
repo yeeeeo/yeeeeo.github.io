@@ -1,5 +1,5 @@
 ---
-title:  "[Java Script] 변수 생성, 데이터 타입, 데이터 형 변환,비구조화 할당" 
+title:  "[Java Script] 변수 생성, 데이터 타입, 데이터 형 변환, 비구조화 할당" 
 excerpt: "Java Script 필수 문법 1"
 
 categories:
