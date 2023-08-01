@@ -135,3 +135,92 @@ Array는 연속적인 데이터를 저장하는 타입이다.
 ```javascript
 let foo = [1, 2, 3, 4, 5];
 ```
+
+## 데이터 형 변환
+JavaScript에서는 숫자 <-> 문자열, 문자열 <-> json으로 바꿀 수 있다.  
+
+1. parseInt
+parseInt는 INT형 타입으로 변환한다.
+
+```javascript
+console.log(parseInt('1'));      // 1
+console.log(parseInt('1.1'));    // 1
+console.log(parseInt(1));        // 1
+console.log(parseInt(1.1));      // 1
+```
+
+2. parseFloat
+parseFloat는 실수 타입으로 변환한다.
+
+```javascript
+console.log(parseFloat('1'));      // 1
+console.log(parseFloat('1.1'));    // 1.1
+console.log(parseFloat(1));        // 1
+console.log(parseFloat(1.1));      // 1.1
+```
+
+4. toString
+toString은 문자열로 변환한다.
+
+```javascript
+let foo1 = "1";
+let foo2 = 1;
+
+console.log(foo1.toString());      // "1"
+console.log(foo2.toString());      // "1"
+```
+
+4. JSON.stringify
+JSON.stringify는 json, array를 문자열로 변경할때 사용한다.
+
+```javascript
+let foo1 = {a: 1, b: 2};
+let foo2 = [1, 2, 3, 4];
+
+console.log(JSON.stringify(foo1));   // "{"a":1,"b":2}"
+console.log(JSON.stringify(foo2));   // "[1,2,3,4]"
+```
+
+5. JSON.parse
+JSON.parse는 JSON.stringify 처리되어 문자열로 된 json과 array를 다시 json과 array로 되돌릴 때 사용한다.
+
+```javascript
+let foo1 = {a: 1, b: 2};
+let foo2 = [1, 2, 3, 4];
+let boo1 = JSON.stringify(foo1);  // "{"a":1,"b":2}"
+let boo2 = JSON.stringify(foo2);  // "[1,2,3,4]"
+
+console.log(JSON.parse(boo1));   // {a: 1, b: 2}
+console.log(JSON.parse(boo2));   // [1,2,3,4]
+```
+
+## 비구조화 할당
+비구조화 할당은 배열이나 객체에서 특정 값이나 키값만 가져오는 방법이다.
+
+1. 비구조 배열 (Destructuring Array)  
+[]을 이용하여 assignment한 값이 배열 요소를 순차적으로 선언할 수 있다.
+
+```javascript
+let foo = [1, 2, 3];
+let [one, two, three] = foo;
+let [A, ...B] = foo;
+
+console.log(one, two, three);       // 1 2 3
+console.log(one);                   // 1
+console.log([one, two, three]);     // [1, 2, 3]
+
+console.log(A, B)                   // 1 [2, 3]
+```
+
+2. 비구조 객체 (Destructuring Object)  
+비구조 객체를 사용하기 위해 {}으로 키값을 감싸면 해당 키값을 변수로 사용 가능하다.  
+해당 키가 없을 땐 기본값으로 설정할 수 있다.
+
+```javascript
+let foo = {a: 1, b: null};
+let {a, b, c = 10} = foo;
+
+console.log(a);     // 1
+console.log(b);     // null
+console.log(c);     // 10
+```
